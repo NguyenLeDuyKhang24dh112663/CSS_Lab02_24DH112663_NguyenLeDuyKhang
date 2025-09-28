@@ -1,0 +1,78 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CSS bài 1</title>
+    <style type="text/css">
+        table.table2 {
+            border: 5px solid darkcyan;
+            border-collapse: collapse;
+            background: black;
+            width: 500px;
+            font: bold;
+            color: white;
+            font-family: 'Montserrat';
+            text-align: left
+        }
+
+        .row {
+            border-bottom: 3px solid lightcyan;
+        }
+
+        td{
+            background-color:darkcyan;
+        }
+
+        td.column1 {
+            background-color: navy;
+            border-block-color: cadetblue;
+        }
+
+        tr.table2 {
+            border-bottom: 3px solid black;
+            border-top: 2px solid black;
+        }
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+
+</head>
+<body>
+    <table class="table2" cellpadding="5" cellspacing="5">
+        <tr class="row">
+            <th class="table2">header1</th>
+            <th class="table2">header2</th>
+            <th class="table2">header3</th>
+            <th class="table2">header4</th>
+        </tr>
+        <tr class="row">
+            <td class="column1">column1</td>
+            <td>column2</td>
+            <td>column3</td>
+            <td >column4</td>
+        </tr>
+        <tr class="row">
+            <td class="column1">column1</td>
+            <td >column2</td>
+            <td >column3</td>
+            <td >column4</td>
+        </tr>
+        <tr class="row">
+            <td class="column1">column1</td>
+            <td >column2</td>
+            <td>column3</td>
+            <td >column4</td>
+        </tr>
+        <tr>
+            <td class="column1">column1</td>
+            <td>column2</td>
+            <td>column3</td>
+            <td >column4</td>
+        </tr>
+    </table>
+</body>
+</html>

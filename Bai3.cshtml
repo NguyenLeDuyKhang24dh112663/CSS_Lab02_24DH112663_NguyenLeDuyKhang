@@ -1,0 +1,139 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CSS bài 3</title>
+    <style>
+        table.bai3 {
+            border: 5px solid darkred;
+            border-collapse: collapse;
+            background-color: rgb(200, 0, 0);
+            font: bold;
+            color: white;
+            font-family: 'Montserrat';
+            text-align: left;
+        }
+
+
+        .bai3 tr:nth-child(2n+1){
+            background-color: indianred;
+        }
+
+        .bai3 tr.Col12:nth-child(2n+1) {
+            background-color: rgb(144, 84, 84) !important;
+        }
+
+        .bai3 tr:first-child {
+            background-color: rgb(200, 0, 0);
+            border: 2px dotted;
+            border-bottom-color: floralwhite;
+            text-align: left;
+            font-family: Bahnschrift;
+            height: 50px;
+            font-size: 20px
+        }
+
+        .bai3 tr.Col12:nth-child(2n) {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <table style="font-family: Calibri" class="bai3" width="700" height="100%">
+        <tr>
+            <th >Ingredients</th>
+            <th class="Col12">serves 12</th>
+            <th>serves 24</th>
+        </tr>
+        <tr>
+            <td>milk</td>
+            <td class="Col12">1 quart</td>
+            <td>2 quart</td>
+        </tr>
+        <tr>
+            <td>cinnamon sticks</td>
+            <td class="Col12">2</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>vanilla bean, split</td>
+            <td class="Col12">1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>cloves</td>
+            <td class="Col12">5</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>mace</td>
+            <td class="Col12">10 blades</td>
+            <td>20 blades</td>
+        </tr>
+        <tr>
+            <td>egg yolks</td>
+            <td class="Col12">12</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>cups sugar</td>
+            <td class="Col12">1 <sup>1</sup>/<sub>2</sub> cups</td>
+            <td>3 cups</td>
+        </tr>
+        <tr>
+            <td>dark rum</td>
+            <td class="Col12">1 <sup>1</sup>/<sub>2</sub> cups</td>
+            <td>3 cups</td>
+        </tr>
+        <tr>
+            <td>brandy</td>
+            <td class="Col12">1 <sup>1</sup>/<sub>2</sub> cups</td>
+            <td>3 cups</td>
+        </tr>
+        <tr>
+            <td>vanilla</td>
+            <td class="Col12">1 tbsp</td>
+            <td>2 tbsp</td>
+        </tr>
+        <tr>
+            <td>hald-and-half or light cream</td>
+            <td class="Col12">1 quart</td>
+            <td>2 quart</td>
+        </tr>
+        <tr>
+            <td>Freshly grated nutmeg to taste</td>
+            <td class="Col12"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <ol>
+                    <li>
+                        Combine milk and spices including the split vanilla bean in a heavy saucepan and
+                        let them infuse over the lowest possible heat for 5 minutes. Meanwhile, in a large bowl, whisk together the egg yolks and sugar until well mixed.
+                    </li>
+                    <li>
+                        Bring the infused milk to a boil. Gradually whisk it into the yolk mixture to temper the eggs.
+                        Return the combined mixture to the saucepan and cook over medium heat, stirring steadily with a wooden spoon for 2 to 3 minutes.
+                        Continue until the foam subsides and the mixture thickens to the consistency of heavy cream.
+                        (It should thickly coat the back of a wooden spoon.) Important: Do not boil, or the mixture will curdle.
+                    </li>
+                    <li>
+                        Strain the mixture into a large bowl and let it cool to room temperature. Stir in the dark rum, brandy, half-and-half (or light cream), 
+                        vanilla extract, and freshly grated nutmeg.
+                    </li>
+                    <li>
+                        Refrigerate the eggnog for at least 2 hours—preferably overnight for best flavor. Just before serving, dust the top with additional nutmeg.
+                    </li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

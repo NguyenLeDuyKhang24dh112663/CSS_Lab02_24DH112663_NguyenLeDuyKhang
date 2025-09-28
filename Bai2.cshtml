@@ -1,0 +1,94 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>CSS bài 2</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: Calibri;
+        }
+
+        .topics::before {
+            content: '🔒';
+        }
+
+        .topics1::before {
+            content: '💬';
+        }
+
+        .topics, .topics1 {
+            color: rgb(30, 109, 145);
+            font-weight: bold;
+        }
+
+        .category {
+            color: rgb(30, 109, 145);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        .postsViews{
+            font-weight: bold;
+        }
+        .data{
+            border-bottom: solid whitesmoke;
+        }
+        .LastPost {
+            color: rgb(169, 169, 187);
+        }
+
+        .date {
+            color: rgb(30, 109, 145);
+        }
+
+        .Right{
+            border-right: solid white;
+        }
+
+        .Left{
+            border-left: solid white;
+        }
+    </style>
+    <link href='https://fonts.googleapis.com/css?family=Bitcount+Prop+Single+Ink' rel='stylesheet'>
+
+</head>
+<body>
+    <table class="tbl" border="1" width="800" height="300">
+        <tr style="background-color: gainsboro; border-top: solid white">
+            <th class="Left" style="text-align: left">Topic</th>
+            <th>Posts</th>
+            <th >Views</th>
+            <th class="Right">Last Post</th>
+        </tr>
+        <tr class="data">
+            <td class="Left"><span class="topics">Posting Guidelines</span><br />Posted in <a href="#" class="category">Please Read First!</a> by Joe Gillespie</td>
+            <td class="postsViews">1</td>
+            <td class="postsViews">288</td>
+            <td class="LastPost Right"><span class="date">Dec 21, 2003</span><br />by Joe Gillespie</td>
+        </tr>
+        <tr class="data">
+            <td class="Left"><span class="topics">Forum Rules</span><br />Posted in <a href="#" class="category">Please Read First!</a> by Joe Gillespie</td>
+            <td class="postsViews">1</td>
+            <td class="postsViews">2023</td>
+            <td class="LastPost Right"><span class="date">Dec 21, 2003</span><br />by Joe Gillespie</td>
+        </tr>
+        <tr class="data">
+            <td class="Left"><span class="topics1">A suitable Word Template</span><br />Posted in <a href="#" class="category">Web Design Software</a> by Wilson Lagg</td>
+            <td class="postsViews">2</td>
+            <td class="postsViews">199</td>
+            <td class="LastPost Right"><span class="date">Mar 28, 2008</span><br />by Shahzad Asif</td>
+        </tr>
+        <tr class="data">
+            <td class="Left"><span class="topics1">few HTML and CSS issues</span><br />Posted in <a href="#" class="category">Layout</a> by Jade M</td>
+            <td class="postsViews">3</td>
+            <td class="postsViews">1</td>
+            <td class="LastPost Right"><span class="date">Mar 28, 2008</span><br />by Shahzad Asif</td>
+        </tr>
+    </table>
+</body>
+</html>
